@@ -2,11 +2,11 @@ import { enableProdMode, NgZone } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { UIRouter, UrlService } from '@uirouter/core';
 import { UIRouterRx } from '@uirouter/rx';
-import { AppModule } from './app.module';
-import { environment } from './environments/environment';
 
 import './angularjs-boot.js';
+import { AppModule } from './app.module';
 import './downgrade.ts';
+import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
